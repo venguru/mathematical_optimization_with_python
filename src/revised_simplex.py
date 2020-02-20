@@ -1,5 +1,5 @@
 """
-2-4. ‰ü’èƒCƒ“ƒvƒŒƒbƒNƒX–@
+2-4. æ”¹å®šã‚¤ãƒ³ãƒ—ãƒ¬ãƒƒã‚¯ã‚¹æ³•
 """
 
 
@@ -14,7 +14,7 @@ MEPS = 1.0e-10
 
 def lp_RevisedSimplex(c, A, b):
     np.seterr(divide='ignore')
-    (m, n) = A.shape # m‚ÍA‚Ìs”, n‚ÍA‚Ì—ñ”
+    (m, n) = A.shape # mã¯Aã®è¡Œæ•°, nã¯Aã®åˆ—æ•°
     AI = np.hstack((A, np.identity(m)))
     c0 = np.r_[c, np.zeros(m)]
     basis = [n+i for i in range(m)]

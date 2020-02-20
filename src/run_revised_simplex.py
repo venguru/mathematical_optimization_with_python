@@ -1,12 +1,14 @@
+# -*- coding: utf-8 -*-
+
 """
-2-4. $B2~D{%7%s%W%l%C%/%9K!$r<B9T$9$k%3!<%I(B
+2-4. 改訂シンプレックス法を実行するコード
 """
 
 
 import numpy as np
 
 
-from revised_simplex_2_4 import *
+from revised_simplex import *
 
 
 A = np.array([[2,2,-1], [2,-2,3], [0,2,-1]])
